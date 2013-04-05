@@ -13,7 +13,7 @@
 	"license": "LGPL-3.0+",
 	"version": "1.0.0",
 	"require": {
-	}
+	},
 	"scripts": {
 		"post-install-cmd": "install.php",
 		"post-update-cmd": "update.php"
