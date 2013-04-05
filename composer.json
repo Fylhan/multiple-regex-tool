@@ -1,17 +1,21 @@
 {
-    "name": "fylhan/multiple-regex-tool",
+	"name": "fylhan/multiple-regex-tool",
 	"description": "PHP Web interface that aims to provide a way to perform several regex searches and replacements on one or several inputs. So, yes, *multiple* is the keyword ;-)",
-    "extra": {
-    	"icon": "test"
-    },
-    "authors": [
-        {
-            "name": "Fylhan",
-            "email": "bnmaster@la-bnbox.fr"
-        }
-    ],
+	"extra": {
+		"icon": "test"
+	},
+	"authors": [
+		{
+			"name": "Fylhan",
+			"email": "bnmaster@la-bnbox.fr"
+		}
+	],
 	"license": "LGPL-3.0+",
-    "version": "1.0.0",
-    "require": {
-    }
+	"version": "1.0.0",
+	"require": {
+	}
+	"scripts": {
+		"post-install-cmd": "install.php",
+		"post-update-cmd": "update.php"
+	}
 }
